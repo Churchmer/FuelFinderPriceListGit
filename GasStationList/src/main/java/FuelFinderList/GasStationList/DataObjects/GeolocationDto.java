@@ -1,4 +1,4 @@
-package FuelFinderList.GasStationList;
+package FuelFinderList.GasStationList.DataObjects;
 
 import lombok.Getter;
 import lombok.Setter;

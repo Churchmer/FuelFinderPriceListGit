@@ -1,4 +1,4 @@
-package FuelFinderList.GasStationList;
+package FuelFinderList.GasStationList.Service;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -7,8 +7,10 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import FuelFinderList.GasStationList.TankerkoenigApiResponseDto.Station;
-import FuelFinderList.GasStationList.TankerkoenigApiResponseDto.Station.Fuel;
+import FuelFinderList.GasStationList.DataObjects.GasStationListDto;
+import FuelFinderList.GasStationList.DataObjects.TankerkoenigApiResponseDto;
+import FuelFinderList.GasStationList.DataObjects.TankerkoenigApiResponseDto.Station;
+import FuelFinderList.GasStationList.DataObjects.TankerkoenigApiResponseDto.Station.Fuel;
 
 
 @Service

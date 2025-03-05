@@ -1,8 +1,13 @@
-package FuelFinderList.GasStationList;
+package FuelFinderList.GasStationList.Controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+
+import FuelFinderList.GasStationList.DataObjects.GasStationListDto;
+import FuelFinderList.GasStationList.DataObjects.GeolocationDto;
+import FuelFinderList.GasStationList.Service.GeolocationApiService;
+import FuelFinderList.GasStationList.Service.TankerkoenigApiService;
 
 import java.util.ArrayList;
 

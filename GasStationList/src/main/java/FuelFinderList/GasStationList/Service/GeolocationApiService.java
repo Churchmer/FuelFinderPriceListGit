@@ -1,10 +1,13 @@
-package FuelFinderList.GasStationList;
+package FuelFinderList.GasStationList.Service;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
+
+import FuelFinderList.GasStationList.DataObjects.GeolocationApiResponseDto;
+import FuelFinderList.GasStationList.DataObjects.GeolocationDto;
 
 @Service
 public class GeolocationApiService {
